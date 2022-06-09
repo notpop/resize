@@ -2,10 +2,10 @@ package main
 
 import (
 	// "image/png"
+	"github.com/nfnt/resize"
 	"image/jpeg"
 	"log"
 	"os"
-	"github.com/nfnt/resize"
 )
 
 const RESIZE_WIDTH = 200
